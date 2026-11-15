@@ -54,7 +54,7 @@ export function encodeShare(theme: Theme): string
 export function decodeShare(text: string): Theme | null
 export function registerSource(theme: Theme, slug: string, domain: string): string
 export function claudePrompt(theme: Theme): string
-export function installPrompt(theme: Theme, slug: string, repo: string): string
+export function installPrompt(theme: Theme, slug: string, repo: string, marketplace: string): string
 export function sceneProblems(scene: unknown): string[]
 export function sceneUrl(scene: string): string
 export function parsePasted(text: string): Record<string, unknown> | null

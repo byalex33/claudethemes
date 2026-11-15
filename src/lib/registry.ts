@@ -46,7 +46,10 @@ export function varsOf(palette: Palette): CSSProperties {
   return vars as CSSProperties
 }
 
-export const shellLine = (slug: string) => `claude plugin install ${slug} --marketplace ${config.repo}`
+export const shellLines = (slug: string) => [
+  `claude plugin marketplace add ${config.repo}`,
+  `claude plugin install ${slug}@${config.marketplace}`,
+]
 export const repoUrl = `https://github.com/${config.repo}`
 
 export function submitUrl(slug: string, theme: Theme): string {

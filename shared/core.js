@@ -310,8 +310,8 @@ export function claudePrompt(theme) {
 }
 
 /** What a person pastes into the Claude app to put on a theme from the gallery. */
-export function installPrompt(theme, slug, repo) {
-  return `Install the "${theme.name}" theme for my Claude app. Run this, then tell me how to see it:\n\nclaude plugin install ${slug} --marketplace ${repo}`
+export function installPrompt(theme, slug, repo, marketplace) {
+  return `Install the "${theme.name}" theme for my Claude app. Run these two commands in order, then tell me how to see it:\n\nclaude plugin marketplace add ${repo}\nclaude plugin install ${slug}@${marketplace}`
 }
 
 /** What a person pastes into Claude, in the chat that made their theme, to get it as a file. */

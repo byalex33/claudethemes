@@ -5,7 +5,7 @@ import { Link, useLocation, useParams } from 'react-router-dom'
 import { claudePrompt, decodeShare, encodeShare, installPrompt, slugify } from '../../shared/core.js'
 import { Command, CopyButton } from '../components/bits'
 import { Mock } from '../components/Mock'
-import { THEMES, config, entryOf, repoUrl, shellLine, shownMode } from '../lib/registry'
+import { THEMES, config, entryOf, repoUrl, shellLines, shownMode } from '../lib/registry'
 import type { Entry } from '../lib/registry'
 import { useSite } from '../lib/site'
 
@@ -65,12 +65,14 @@ function ThemeView({ entry, listed }: { entry: Entry; listed: boolean }) {
           {listed ? (
             <>
               <p>Copy this and paste it into a chat in the Claude desktop app. Claude puts the theme on for you.</p>
-              <CopyButton text={installPrompt(theme, entry.slug, config.repo)} className="button is-primary" icon={<FiMessageSquare />}>
+              <CopyButton text={installPrompt(theme, entry.slug, config.repo, config.marketplace)} className="button is-primary" icon={<FiMessageSquare />}>
                 Copy for Claude
               </CopyButton>
               <details className="advanced">
                 <summary>Or install it from a terminal</summary>
-                <Command text={shellLine(entry.slug)} />
+                {shellLines(entry.slug).map(line => (
+                  <Command key={line} text={line} />
+                ))}
               </details>
             </>
           ) : (
