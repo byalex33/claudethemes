@@ -51,7 +51,8 @@ Claude installs the theme for you. To go back, ask Claude to clear the theme.
 <br />
 
 ```
-claude plugin install midnight-ink --marketplace byalex33/claudethemes
+claude plugin marketplace add byalex33/claudethemes
+claude plugin install midnight-ink@claudethemes
 ```
 
 </details>
@@ -123,7 +124,7 @@ flowchart LR
 | `template/hooks/make-colors.js` | Claude's theme helper, copied unchanged. Don't edit it; re-copy it when Claude updates. |
 | `scripts/registry.mjs` | Checks every theme and generates `plugins/` and the marketplace file. |
 | `plugins/`, `.claude-plugin/` | Generated. `.github/workflows/registry.yml` regenerates them when a theme changes. |
-| `worker/` | The optional upload endpoint, a Cloudflare Worker. |
+| `api/upload.js` | The upload endpoint, a Vercel function. |
 | `src/` | The site: Vite, React, react-icons. |
 
 ## Run it locally
@@ -140,21 +141,13 @@ npm run dev
 | `npm run registry` | Checks, then regenerates `plugins/` and the marketplace file. |
 | `npm run build` | Checks, type-checks and builds to `dist/`. |
 
-The repository name, domain and upload endpoint live in `registry.config.json`.
+The repository name and domain live in `registry.config.json`.
 
 ## Deploy
 
 **Site.** Hosted on Vercel, which builds and deploys every push to `main` and gives each pull request its own preview. `vercel.json` holds the build settings and the rewrite that lets `/theme/<name>` and `/upload` load directly.
 
-**Upload endpoint.** Optional, and what lets people upload to the gallery with no GitHub account: it opens the review pull request for them.
-
-```
-cd worker
-npx wrangler deploy
-npx wrangler secret put GITHUB_TOKEN
-```
-
-Use a fine-grained token for this repository only, with "Contents: write" and "Pull requests: write", then put the deployed URL in `registry.config.json` as `uploadEndpoint`. Without it, the upload button hands people to GitHub with the theme file already filled in.
+**Upload endpoint.** `api/upload.js` is a Vercel function that lets people upload to the gallery with no GitHub account: it opens the review pull request for them. It switches on when the Vercel project has a `GITHUB_TOKEN` environment variable, a fine-grained token for this repository only with "Contents: write" and "Pull requests: write". Without the token, the upload button hands people to GitHub with the theme file already filled in.
 
 ## Contributing
 

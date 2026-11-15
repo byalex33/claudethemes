@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import type { DragEvent } from 'react'
 import { FiAlertTriangle, FiCheck, FiDownload, FiGithub, FiLink, FiMessageSquare, FiUploadCloud, FiX } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
@@ -13,6 +13,7 @@ import { useSite } from '../lib/site'
 const FILE_MAX = 200_000
 // GitHub drops a prefilled file that makes the address too long.
 const PREFILL_MAX = 6500
+const ENDPOINT = '/api/upload'
 
 type Sent = { state: 'idle' } | { state: 'sending' } | { state: 'sent'; url?: string } | { state: 'failed'; message: string }
 
@@ -34,6 +35,19 @@ export function Upload() {
   const [author, setAuthor] = useState('')
   const [over, setOver] = useState(false)
   const [sent, setSent] = useState<Sent>({ state: 'idle' })
+  // Whether the site can queue an upload itself. If not, GitHub takes it.
+  const [direct, setDirect] = useState(false)
+
+  useEffect(() => {
+    let live = true
+    fetch(ENDPOINT)
+      .then(r => (r.ok ? r.json() : { ready: false }))
+      .then((body: { ready?: boolean }) => live && setDirect(body.ready === true))
+      .catch(() => undefined)
+    return () => {
+      live = false
+    }
+  }, [])
 
   const take = (text: string) => {
     setSent({ state: 'idle' })
@@ -87,7 +101,7 @@ export function Upload() {
     if (!theme) return
     setSent({ state: 'sending' })
     try {
-      const response = await fetch(config.uploadEndpoint, {
+      const response = await fetch(ENDPOINT, {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
         body: JSON.stringify({ theme }),
@@ -203,7 +217,7 @@ export function Upload() {
                 </section>
 
                 <div className="share-actions">
-                  {config.uploadEndpoint ? (
+                  {direct ? (
                     <button type="button" className="button is-primary" disabled={!ready || taken || sent.state === 'sending' || sent.state === 'sent'} onClick={() => void send()}>
                       <FiUploadCloud /> {sent.state === 'sending' ? 'Uploading' : 'Upload to the gallery'}
                     </button>
@@ -243,7 +257,7 @@ export function Upload() {
                   </p>
                 )}
                 <p className="fine">
-                  {config.uploadEndpoint
+                  {direct
                     ? 'Uploads are looked over before they appear, so the gallery stays good.'
                     : 'Uploading opens a ready-made pull request on GitHub, where it is looked over before it appears.'}{' '}
                   A share link works straight away and holds the whole theme in the link itself.
