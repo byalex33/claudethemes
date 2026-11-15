@@ -1,0 +1,9 @@
+{
+  "name": "audit-test",
+  "version": "1.0.0",
+  "description": "Endpoint test. Safe to close.",
+  "author": {
+    "name": "@octocat tester"
+  },
+  "homepage": "https://claudethemes.space/theme/audit-test"
+}
