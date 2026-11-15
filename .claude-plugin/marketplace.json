@@ -1,0 +1,49 @@
+{
+  "name": "claudethemes",
+  "description": "Community themes for Claude, from https://claudethemes.space",
+  "owner": {
+    "name": "claudethemes.space"
+  },
+  "plugins": [
+    {
+      "name": "ember",
+      "source": "./plugins/ember",
+      "description": "Charcoal with sparks rising off the coals. Dark only."
+    },
+    {
+      "name": "graphite",
+      "source": "./plugins/graphite",
+      "description": "Neutral pencil grays with one blue line."
+    },
+    {
+      "name": "lilac-dusk",
+      "source": "./plugins/lilac-dusk",
+      "description": "Violet evening sky, lavender morning."
+    },
+    {
+      "name": "midnight-ink",
+      "source": "./plugins/midnight-ink",
+      "description": "Blue-black ink under a slow field of stars. Dark only."
+    },
+    {
+      "name": "moss",
+      "source": "./plugins/moss",
+      "description": "Forest floor greens, soft on the eyes."
+    },
+    {
+      "name": "paper-notebook",
+      "source": "./plugins/paper-notebook",
+      "description": "Warm paper by day, lamp-lit paper by night."
+    },
+    {
+      "name": "sandstone",
+      "source": "./plugins/sandstone",
+      "description": "Desert rock and a clay accent. Light only."
+    },
+    {
+      "name": "tidepool",
+      "source": "./plugins/tidepool",
+      "description": "Cool sea glass, with a deep-water night."
+    }
+  ]
+}
