@@ -16,6 +16,10 @@ const API = `https://api.github.com/repos/${config.repo}`
 
 // A small brake on floods: at most this many uploads from one address per window,
 // per warm instance. The pull request queue is the real moderation.
+// The queue itself is capped too. Unlike the per-address brake this holds across
+// instances and restarts, because the count comes from GitHub.
+const QUEUE_MAX = 25
+
 const WINDOW_MS = 10 * 60 * 1000
 const PER_WINDOW = 5
 const seen = new Map()
@@ -49,6 +53,18 @@ async function github(path, init = {}) {
   return { ok: response.ok, status: response.status, data: await response.json().catch(() => ({})) }
 }
 
+function sameOrigin(request) {
+  try {
+    return new URL(request.headers.get('origin') ?? '').host === new URL(request.url).host
+  } catch {
+    return false
+  }
+}
+
+// Text an uploader chose, made safe to show in a pull request: inside a code span
+// nothing is a mention, a link or markup.
+const quoted = value => `\`${String(value).replace(/`/g, "'")}\``
+
 export function GET() {
   return reply(200, { ready: Boolean(process.env.GITHUB_TOKEN) })
 }
@@ -56,10 +72,7 @@ export function GET() {
 export async function POST(request) {
   if (!process.env.GITHUB_TOKEN) return reply(503, { error: 'Uploads are not switched on yet.' })
 
-  const origin = request.headers.get('origin')
-  if (origin && new URL(origin).host !== new URL(request.url).host) {
-    return reply(403, { error: 'Upload from the site itself.' })
-  }
+  if (!sameOrigin(request)) return reply(403, { error: 'Upload from the site itself.' })
 
   const ip = (request.headers.get('x-forwarded-for') ?? 'unknown').split(',')[0].trim()
   if (!allowed(ip)) return reply(429, { error: 'Too many uploads from here. Try again in a few minutes.' })
@@ -85,6 +98,11 @@ export async function POST(request) {
   const existing = await github(`/contents/${path}?ref=${config.branch}`)
   if (existing.ok) return reply(409, { error: `The gallery already has a theme called ${tidy.name}.` })
 
+  const queue = await github('/pulls?state=open&per_page=100')
+  if (queue.ok && queue.data.filter(pull => pull.head?.ref?.startsWith('upload/')).length >= QUEUE_MAX) {
+    return reply(429, { error: 'The review queue is full right now. Try again in a day or so.' })
+  }
+
   const head = await github(`/git/ref/heads/${config.branch}`)
   if (!head.ok) return reply(502, { error: 'The gallery is unreachable right now. Try again shortly.' })
 
@@ -95,7 +113,7 @@ export async function POST(request) {
   const put = await github(`/contents/${path}`, {
     method: 'PUT',
     body: {
-      message: `feat(themes): add ${tidy.name}`,
+      message: `feat(themes): add ${slug}`,
       branch,
       content: Buffer.from(`${JSON.stringify(tidy, null, 2)}\n`).toString('base64'),
     },
@@ -105,10 +123,10 @@ export async function POST(request) {
   const pull = await github('/pulls', {
     method: 'POST',
     body: {
-      title: `feat(themes): add ${tidy.name}`,
+      title: `feat(themes): add ${slug}`,
       head: branch,
       base: config.branch,
-      body: `Uploaded from https://${config.domain}/upload.\n\n- Name: ${tidy.name}\n- By: ${tidy.author}\n- Modes: ${['light', 'dark'].filter(m => tidy[m]).join(', ')}\n- Moving backdrop: ${tidy.scene ? 'yes' : 'no'}`,
+      body: `Uploaded from https://${config.domain}/upload.\n\n- Name: ${quoted(tidy.name)}\n- By: ${quoted(tidy.author)}\n- Modes: ${['light', 'dark'].filter(m => tidy[m]).join(', ')}\n- Moving backdrop: ${tidy.scene ? 'yes' : 'no'}`,
     },
   })
   if (!pull.ok) return reply(502, { error: 'The upload was saved but not queued. A maintainer will pick it up.' })
