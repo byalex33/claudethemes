@@ -16,7 +16,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-d97757?style=flat-square" alt="MIT license" /></a>
   <img src="https://img.shields.io/badge/accounts-none-d97757?style=flat-square" alt="No accounts" />
   <img src="https://img.shields.io/badge/themes-data%2C%20not%20code-d97757?style=flat-square" alt="Themes are data, not code" />
-  <a href="https://github.com/byalex33/claudethemes/actions/workflows/publish.yml"><img src="https://img.shields.io/github/actions/workflow/status/byalex33/claudethemes/publish.yml?style=flat-square&label=deploy&color=d97757" alt="Deploy status" /></a>
+  <a href="https://github.com/byalex33/claudethemes/actions"><img src="https://img.shields.io/badge/hosted%20on-Vercel-d97757?style=flat-square" alt="Hosted on Vercel" /></a>
   <a href="https://github.com/byalex33/claudethemes/pulls"><img src="https://img.shields.io/badge/uploads-welcome-d97757?style=flat-square" alt="Uploads welcome" /></a>
 </p>
 
@@ -122,7 +122,7 @@ flowchart LR
 | `shared/core.js` | Theme checks, share links, prompts and mod generation. Used by the site, the scripts and the upload endpoint. |
 | `template/hooks/make-colors.js` | Claude's theme helper, copied unchanged. Don't edit it; re-copy it when Claude updates. |
 | `scripts/registry.mjs` | Checks every theme and generates `plugins/` and the marketplace file. |
-| `plugins/`, `.claude-plugin/` | Generated. CI regenerates them on every push to `main`. |
+| `plugins/`, `.claude-plugin/` | Generated. `.github/workflows/registry.yml` regenerates them when a theme changes. |
 | `worker/` | The optional upload endpoint, a Cloudflare Worker. |
 | `src/` | The site: Vite, React, react-icons. |
 
@@ -144,7 +144,7 @@ The repository name, domain and upload endpoint live in `registry.config.json`.
 
 ## Deploy
 
-**Site.** `.github/workflows/publish.yml` builds and deploys to GitHub Pages on every push to `main`.
+**Site.** Hosted on Vercel, which builds and deploys every push to `main` and gives each pull request its own preview. `vercel.json` holds the build settings and the rewrite that lets `/theme/<name>` and `/upload` load directly.
 
 **Upload endpoint.** Optional, and what lets people upload to the gallery with no GitHub account: it opens the review pull request for them.
 
