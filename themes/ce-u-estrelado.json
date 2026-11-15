@@ -1,0 +1,18 @@
+{
+  "name": "Céu estrelado",
+  "author": "ichikawacraice",
+  "description": "By ichikawacraice on GitHub (MIT). Original: github.com/ichikawacraice/ichikawa-plugins",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "dark": {
+    "surface-0": "#09080e",
+    "surface-1": "#0e0c14",
+    "surface-2": "#13111a",
+    "surface-3": "#191621",
+    "text-primary": "#ecebf1",
+    "text-secondary": "#c9c6d3",
+    "text-muted": "#a3a0b0"
+  }
+}

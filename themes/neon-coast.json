@@ -1,0 +1,34 @@
+{
+  "name": "Neon Coast",
+  "author": "IsTincho",
+  "description": "By IsTincho on GitHub (MIT). Original: github.com/IsTincho/neon-coast",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#ff2fa0",
+    "danger": "#ff3b5c",
+    "success": "#2ee6a6",
+    "warning": "#ff9e3d",
+    "pro": "#19d3e0"
+  },
+  "light": {
+    "surface-0": "#f2dde4",
+    "surface-1": "#f7e8ed",
+    "surface-2": "#fcf3f6",
+    "text-primary": "#2a1233",
+    "text-secondary": "#4d2a58",
+    "text-muted": "#664472"
+  },
+  "dark": {
+    "surface-0": "#140b24",
+    "surface-1": "#1b102f",
+    "surface-2": "#21143a",
+    "surface-3": "#281944",
+    "text-primary": "#fdf0fb",
+    "text-secondary": "#e2c9ee",
+    "text-muted": "#b99bcc"
+  }
+}

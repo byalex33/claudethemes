@@ -1,0 +1,25 @@
+{
+  "name": "Zifiri",
+  "author": "afsozer",
+  "description": "By afsozer on GitHub (MIT). Original: github.com/afsozer/zifiri-tema",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#5fb4ff",
+    "danger": "#ff5f56",
+    "success": "#3ddc84",
+    "warning": "#ffb340",
+    "pro": "#b18cff"
+  },
+  "dark": {
+    "surface-0": "#000000",
+    "surface-1": "#08090a",
+    "surface-2": "#0e0f11",
+    "surface-3": "#141518",
+    "text-primary": "#e8e8ea",
+    "text-secondary": "#b4b5b9",
+    "text-muted": "#8d8e93"
+  }
+}

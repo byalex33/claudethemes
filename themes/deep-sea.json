@@ -1,0 +1,25 @@
+{
+  "name": "Deep sea",
+  "author": "breyr",
+  "description": "By breyr on GitHub (MIT). Original: github.com/breyr/claude-deep-sea-theme",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#3b82f6",
+    "danger": "#ff5d6c",
+    "success": "#36c98f",
+    "warning": "#f2b14a",
+    "pro": "#a07cff"
+  },
+  "dark": {
+    "surface-0": "#000000",
+    "surface-1": "#08090c",
+    "surface-2": "#0d0f13",
+    "surface-3": "#12151b",
+    "text-primary": "#eceff5",
+    "text-secondary": "#b8bfcc",
+    "text-muted": "#8d95a5"
+  }
+}

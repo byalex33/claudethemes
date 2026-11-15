@@ -1,0 +1,25 @@
+{
+  "name": "Neon Rain",
+  "author": "Tamara1001",
+  "description": "By Tamara1001 on GitHub (MIT). Original: github.com/Tamara1001/claude-neon-rain",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#ff5fa2",
+    "danger": "#ff4d5e",
+    "success": "#4fe3b0",
+    "warning": "#f3c56b",
+    "pro": "#a98bff"
+  },
+  "dark": {
+    "surface-0": "#0c1020",
+    "surface-1": "#121830",
+    "surface-2": "#192040",
+    "surface-3": "#192040",
+    "text-primary": "#e3e8f6",
+    "text-secondary": "#bcc6e0",
+    "text-muted": "#929dc4"
+  }
+}

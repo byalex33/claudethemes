@@ -1,0 +1,34 @@
+{
+  "name": "Bubblegum Fizz",
+  "author": "HemalathaMadeswaran18",
+  "description": "By HemalathaMadeswaran18 on GitHub (MIT). Original: github.com/HemalathaMadeswaran18/bubblegum-fizz",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#e0408a",
+    "danger": "#d1343f",
+    "success": "#3f9a6a",
+    "warning": "#c8841c",
+    "pro": "#8a5cd6"
+  },
+  "light": {
+    "surface-0": "#f9e1ea",
+    "surface-1": "#fcebf1",
+    "surface-2": "#fff4f8",
+    "text-primary": "#3a1a29",
+    "text-secondary": "#5e3347",
+    "text-muted": "#7a4a60"
+  },
+  "dark": {
+    "surface-0": "#22101b",
+    "surface-1": "#2b1522",
+    "surface-2": "#341a29",
+    "surface-3": "#3b1f2f",
+    "text-primary": "#fbe9f1",
+    "text-secondary": "#e5c6d4",
+    "text-muted": "#c4a0b2"
+  }
+}

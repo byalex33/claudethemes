@@ -1,0 +1,34 @@
+{
+  "name": "Malva",
+  "author": "btahir",
+  "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#ad93dc",
+    "danger": "#e08e97",
+    "success": "#83b386",
+    "warning": "#e2a074",
+    "pro": "#d0bc72"
+  },
+  "light": {
+    "surface-0": "#f6e5de",
+    "surface-1": "#f9ebe5",
+    "surface-2": "#fbf1ec",
+    "text-primary": "#3d2a2f",
+    "text-secondary": "#54404a",
+    "text-muted": "#665156"
+  },
+  "dark": {
+    "surface-0": "#29212f",
+    "surface-1": "#2e2635",
+    "surface-2": "#332a3a",
+    "surface-3": "#382f3f",
+    "text-primary": "#e3dbe8",
+    "text-secondary": "#cbc2d0",
+    "text-muted": "#b6adbd"
+  }
+}

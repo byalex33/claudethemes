@@ -1,0 +1,25 @@
+{
+  "name": "Amber CRT",
+  "author": "briannaworkman",
+  "description": "By briannaworkman on GitHub (MIT). Original: github.com/briannaworkman/looks",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#ffb000",
+    "danger": "#ff6b4a",
+    "success": "#8fcf5a",
+    "warning": "#ffd23f",
+    "pro": "#c9a0ff"
+  },
+  "dark": {
+    "surface-0": "#120e08",
+    "surface-1": "#16110a",
+    "surface-2": "#19140c",
+    "surface-3": "#1d170e",
+    "text-primary": "#ffd48a",
+    "text-secondary": "#e0b070",
+    "text-muted": "#b58d52"
+  }
+}

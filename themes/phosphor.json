@@ -1,0 +1,34 @@
+{
+  "name": "Phosphor",
+  "author": "btahir",
+  "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#33a6a0",
+    "danger": "#c86459",
+    "success": "#5aa75e",
+    "warning": "#cc9c42",
+    "pro": "#9076be"
+  },
+  "light": {
+    "surface-0": "#e7f0e6",
+    "surface-1": "#eef5ed",
+    "surface-2": "#f4faf3",
+    "text-primary": "#213023",
+    "text-secondary": "#3c4c3f",
+    "text-muted": "#556558"
+  },
+  "dark": {
+    "surface-0": "#19241b",
+    "surface-1": "#1e2a21",
+    "surface-2": "#233026",
+    "surface-3": "#29372c",
+    "text-primary": "#d2e8d5",
+    "text-secondary": "#b2c8b5",
+    "text-muted": "#96ab99"
+  }
+}

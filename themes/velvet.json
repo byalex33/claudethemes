@@ -1,0 +1,25 @@
+{
+  "name": "Velvet",
+  "author": "reversedPF",
+  "description": "By reversedPF on GitHub (MIT). Original: github.com/reversedPF/velvet-claude-theme",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#c08ef0",
+    "danger": "#e5737f",
+    "success": "#8fd19e",
+    "warning": "#e8b468",
+    "pro": "#e39ac8"
+  },
+  "dark": {
+    "surface-0": "#130d1d",
+    "surface-1": "#1b1328",
+    "surface-2": "#221832",
+    "surface-3": "#261b38",
+    "text-primary": "#f2ebf7",
+    "text-secondary": "#cdc0db",
+    "text-muted": "#a798ba"
+  }
+}

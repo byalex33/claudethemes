@@ -1,0 +1,25 @@
+{
+  "name": "Moon Window",
+  "author": "leifshen",
+  "description": "By leifshen on GitHub (MIT). Original: github.com/leifshen/claude-desktop-backdrops",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#7fb89a",
+    "danger": "#d0564a",
+    "success": "#8cbf5a",
+    "warning": "#d9a13b",
+    "pro": "#a58bd6"
+  },
+  "dark": {
+    "surface-0": "#0c120f",
+    "surface-1": "#121a16",
+    "surface-2": "#17211c",
+    "surface-3": "#1b2620",
+    "text-primary": "#e6eedf",
+    "text-secondary": "#bccab8",
+    "text-muted": "#94a491"
+  }
+}

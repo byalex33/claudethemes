@@ -1,0 +1,25 @@
+{
+  "name": "Cielo estrellado",
+  "author": "joselito404",
+  "description": "By joselito404 on GitHub (MIT). Original: github.com/joselito404/cielo-estrellado",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#7fb4ff",
+    "danger": "#ff7b7b",
+    "success": "#5fd4a4",
+    "warning": "#e0a45c",
+    "pro": "#a99bff"
+  },
+  "dark": {
+    "surface-0": "#04070e",
+    "surface-1": "#0c1326",
+    "surface-2": "#101a33",
+    "surface-3": "#141e3a",
+    "text-primary": "#e9f1ff",
+    "text-secondary": "#b6c6e4",
+    "text-muted": "#8d9fc3"
+  }
+}

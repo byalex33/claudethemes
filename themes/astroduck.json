@@ -1,0 +1,25 @@
+{
+  "name": "astroduck",
+  "author": "AyushChaurasia18",
+  "description": "By AyushChaurasia18 on GitHub (MIT). Original: github.com/AyushChaurasia18/astroduck",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#9d8cff",
+    "danger": "#ff4d6d",
+    "success": "#5ef2b0",
+    "warning": "#ffd166",
+    "pro": "#4cc9f0"
+  },
+  "dark": {
+    "surface-0": "#000000",
+    "surface-1": "#08080d",
+    "surface-2": "#0e0e16",
+    "surface-3": "#14141e",
+    "text-primary": "#eaeaf2",
+    "text-secondary": "#bcbccc",
+    "text-muted": "#7d7d95"
+  }
+}

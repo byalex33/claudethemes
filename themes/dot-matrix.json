@@ -1,0 +1,25 @@
+{
+  "name": "Dot matrix",
+  "author": "enuzzo",
+  "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#ffa424",
+    "danger": "#ff4a36",
+    "success": "#4dff86",
+    "warning": "#ffd23f",
+    "pro": "#c9a2ff"
+  },
+  "dark": {
+    "surface-0": "#0b0806",
+    "surface-1": "#110d0a",
+    "surface-2": "#17120e",
+    "surface-3": "#1d1712",
+    "text-primary": "#fff4e4",
+    "text-secondary": "#e2d2bd",
+    "text-muted": "#b8a58e"
+  }
+}

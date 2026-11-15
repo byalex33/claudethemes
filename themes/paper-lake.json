@@ -1,0 +1,25 @@
+{
+  "name": "Paper lake",
+  "author": "Seravielle-de-Lochan",
+  "description": "By Seravielle-de-Lochan on GitHub (Apache-2.0). Original: github.com/Seravielle-de-Lochan/paper-lake",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#2fb8a8",
+    "danger": "#e0606a",
+    "success": "#7cc35a",
+    "warning": "#e0a83a",
+    "pro": "#a58ae0"
+  },
+  "dark": {
+    "surface-0": "#111b1c",
+    "surface-1": "#162324",
+    "surface-2": "#1a2a2a",
+    "surface-3": "#1e3030",
+    "text-primary": "#eef3e8",
+    "text-secondary": "#c9d6cc",
+    "text-muted": "#a3b5ac"
+  }
+}

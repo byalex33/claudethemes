@@ -1,0 +1,25 @@
+{
+  "name": "Cyberpunk",
+  "author": "enuzzo",
+  "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#00e5ff",
+    "danger": "#ff3b5c",
+    "success": "#3dff9e",
+    "warning": "#ffe11a",
+    "pro": "#ff2bd6"
+  },
+  "dark": {
+    "surface-0": "#081217",
+    "surface-1": "#0c181e",
+    "surface-2": "#101d24",
+    "surface-3": "#13222a",
+    "text-primary": "#e8fbff",
+    "text-secondary": "#b9d9e0",
+    "text-muted": "#8cb1ba"
+  }
+}

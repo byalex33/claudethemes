@@ -1,0 +1,34 @@
+{
+  "name": "Sol",
+  "author": "btahir",
+  "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#4498ca",
+    "danger": "#d36c6b",
+    "success": "#54ac8a",
+    "warning": "#c7ac4b",
+    "pro": "#a171c3"
+  },
+  "light": {
+    "surface-0": "#f3ebd5",
+    "surface-1": "#f7f0dd",
+    "surface-2": "#faf5e6",
+    "text-primary": "#494230",
+    "text-secondary": "#5c5541",
+    "text-muted": "#6e6650"
+  },
+  "dark": {
+    "surface-0": "#0c333c",
+    "surface-1": "#153841",
+    "surface-2": "#1c3d45",
+    "surface-3": "#23424a",
+    "text-primary": "#c9d7db",
+    "text-secondary": "#b1c1c5",
+    "text-muted": "#9daeb3"
+  }
+}

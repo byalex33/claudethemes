@@ -1,0 +1,25 @@
+{
+  "name": "Sakura",
+  "author": "briannaworkman",
+  "description": "By briannaworkman on GitHub (MIT). Original: github.com/briannaworkman/looks",
+  "tags": [
+    "community",
+    "light"
+  ],
+  "roles": {
+    "accent": "#c2527a",
+    "danger": "#c23b4b",
+    "success": "#5e8f6a",
+    "warning": "#c58a2b",
+    "pro": "#7a62b5"
+  },
+  "light": {
+    "surface-0": "#f3e4e8",
+    "surface-1": "#f9eef1",
+    "surface-2": "#fdf6f8",
+    "surface-3": "#fdf6f8",
+    "text-primary": "#3a2831",
+    "text-secondary": "#573f49",
+    "text-muted": "#69505a"
+  }
+}

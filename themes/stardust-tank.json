@@ -1,0 +1,25 @@
+{
+  "name": "Stardust Tank",
+  "author": "kurpsaki",
+  "description": "By kurpsaki on GitHub (MIT). Original: github.com/kurpsaki/stardust-tank",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#8ab4d6",
+    "danger": "#e8837c",
+    "success": "#86c99a",
+    "warning": "#d9b56a",
+    "pro": "#b49be0"
+  },
+  "dark": {
+    "surface-0": "#0a0b0e",
+    "surface-1": "#0f1115",
+    "surface-2": "#13161b",
+    "surface-3": "#181b21",
+    "text-primary": "#e8eaee",
+    "text-secondary": "#bcc1ca",
+    "text-muted": "#959ca8"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Cupertino Dusk",
+  "author": "rhealaloo45",
+  "description": "By rhealaloo45 on GitHub (MIT). Original: github.com/rhealaloo45/pit-lane-claude-mods",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#f0a868",
+    "danger": "#e2646d",
+    "success": "#6cc08a",
+    "warning": "#e6b45c",
+    "pro": "#b29cff"
+  },
+  "dark": {
+    "surface-0": "#11152a",
+    "surface-1": "#171c34",
+    "surface-2": "#1d233e",
+    "surface-3": "#232a47",
+    "text-primary": "#eef0f8",
+    "text-secondary": "#c9cde0",
+    "text-muted": "#a2a8c3"
+  }
+}

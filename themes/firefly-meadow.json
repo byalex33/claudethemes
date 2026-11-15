@@ -1,0 +1,25 @@
+{
+  "name": "Firefly Meadow",
+  "author": "amandamartin-dev",
+  "description": "By amandamartin-dev on GitHub (MIT). Original: github.com/amandamartin-dev/claude-mods",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#ffd27a",
+    "danger": "#f2a0b0",
+    "success": "#9fd8a0",
+    "warning": "#f0bc82",
+    "pro": "#b8a8ee"
+  },
+  "dark": {
+    "surface-0": "#121631",
+    "surface-1": "#171b3a",
+    "surface-2": "#1c2042",
+    "surface-3": "#20254a",
+    "text-primary": "#ece8f5",
+    "text-secondary": "#c6c2dc",
+    "text-muted": "#9a98b8"
+  }
+}

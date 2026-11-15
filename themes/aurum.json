@@ -1,0 +1,34 @@
+{
+  "name": "Aurum",
+  "author": "btahir",
+  "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#ceae48",
+    "danger": "#d7695f",
+    "success": "#5eaf7d",
+    "warning": "#e8954a",
+    "pro": "#a082c3"
+  },
+  "light": {
+    "surface-0": "#f3ecde",
+    "surface-1": "#f7f1e5",
+    "surface-2": "#faf6ee",
+    "text-primary": "#2c2618",
+    "text-secondary": "#4c4434",
+    "text-muted": "#615846"
+  },
+  "dark": {
+    "surface-0": "#221e15",
+    "surface-1": "#26221a",
+    "surface-2": "#2b271f",
+    "surface-3": "#302c23",
+    "text-primary": "#e6dfd0",
+    "text-secondary": "#cac2b1",
+    "text-muted": "#b4ab9a"
+  }
+}

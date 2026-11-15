@@ -1,0 +1,25 @@
+{
+  "name": "Orange Kois",
+  "author": "nabielyr",
+  "description": "By nabielyr on GitHub (MIT). Original: github.com/nabielyr/orange-kois",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#ff7a1a",
+    "danger": "#e5484d",
+    "success": "#8fb339",
+    "warning": "#ffc233",
+    "pro": "#ff9e64"
+  },
+  "dark": {
+    "surface-0": "#140a05",
+    "surface-1": "#1c0f08",
+    "surface-2": "#24140b",
+    "surface-3": "#2b180d",
+    "text-primary": "#ffe9d2",
+    "text-secondary": "#e6c3a0",
+    "text-muted": "#b8957a"
+  }
+}

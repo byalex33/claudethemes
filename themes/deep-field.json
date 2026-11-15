@@ -1,0 +1,25 @@
+{
+  "name": "Deep Field",
+  "author": "amandamartin-dev",
+  "description": "By amandamartin-dev on GitHub (MIT). Original: github.com/amandamartin-dev/claude-mods",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#6edcff",
+    "danger": "#e5533d",
+    "success": "#4ecb8a",
+    "warning": "#ff7828",
+    "pro": "#9b7bff"
+  },
+  "dark": {
+    "surface-0": "#05070d",
+    "surface-1": "#090c15",
+    "surface-2": "#0d111c",
+    "surface-3": "#121726",
+    "text-primary": "#e8eef8",
+    "text-secondary": "#bcc7d8",
+    "text-muted": "#93a0b6"
+  }
+}

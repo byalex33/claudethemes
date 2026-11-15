@@ -1,0 +1,25 @@
+{
+  "name": "Atrium Noon",
+  "author": "leifshen",
+  "description": "By leifshen on GitHub (MIT). Original: github.com/leifshen/claude-desktop-backdrops",
+  "tags": [
+    "community",
+    "light"
+  ],
+  "roles": {
+    "accent": "#2f4a5c",
+    "danger": "#b3392f",
+    "success": "#4e7d3a",
+    "warning": "#a8791a",
+    "pro": "#6d4f94"
+  },
+  "light": {
+    "surface-0": "#e9e7df",
+    "surface-1": "#f1efe8",
+    "surface-2": "#f7f6f1",
+    "surface-3": "#f7f6f1",
+    "text-primary": "#1b1a17",
+    "text-secondary": "#45423a",
+    "text-muted": "#5e5a50"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Synthwave sunset",
+  "author": "enuzzo",
+  "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#ff2fa8",
+    "danger": "#ff4d5e",
+    "success": "#2ef2b3",
+    "warning": "#ffb13b",
+    "pro": "#a678ff"
+  },
+  "dark": {
+    "surface-0": "#140a24",
+    "surface-1": "#1a0e2f",
+    "surface-2": "#201238",
+    "surface-3": "#261640",
+    "text-primary": "#f8ecff",
+    "text-secondary": "#dcc6f0",
+    "text-muted": "#b39bcf"
+  }
+}

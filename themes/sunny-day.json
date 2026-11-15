@@ -1,0 +1,24 @@
+{
+  "name": "Sunny day",
+  "author": "richyuen",
+  "description": "By richyuen on GitHub (MIT). Original: github.com/richyuen/sunny-day-mascot",
+  "tags": [
+    "community",
+    "light"
+  ],
+  "roles": {
+    "accent": "#1e7fc2",
+    "danger": "#c23b2e",
+    "success": "#3f8f3a",
+    "warning": "#b7791f",
+    "pro": "#c4623e"
+  },
+  "light": {
+    "surface-0": "#e6f2f8",
+    "surface-1": "#eef7fb",
+    "surface-2": "#f6fbfd",
+    "text-primary": "#132b38",
+    "text-secondary": "#2d4a59",
+    "text-muted": "#4a6574"
+  }
+}

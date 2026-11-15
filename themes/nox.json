@@ -1,0 +1,34 @@
+{
+  "name": "Nox",
+  "author": "btahir",
+  "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#8388e0",
+    "danger": "#d46565",
+    "success": "#4ca77b",
+    "warning": "#d09945",
+    "pro": "#bc6cab"
+  },
+  "light": {
+    "surface-0": "#edeaf9",
+    "surface-1": "#f2f0fc",
+    "surface-2": "#f7f6fd",
+    "text-primary": "#292440",
+    "text-secondary": "#47445f",
+    "text-muted": "#57546d"
+  },
+  "dark": {
+    "surface-0": "#201f34",
+    "surface-1": "#242439",
+    "surface-2": "#29283f",
+    "surface-3": "#2e2d44",
+    "text-primary": "#dcdcee",
+    "text-secondary": "#bbbbd1",
+    "text-muted": "#a3a3bb"
+  }
+}
