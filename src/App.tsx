@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import { FiGithub, FiMoon, FiSun } from 'react-icons/fi'
 import { BrowserRouter, Link, NavLink, Route, Routes, useLocation } from 'react-router-dom'
 
+import { StarNudge } from './components/StarNudge'
 import { repoUrl } from './lib/registry'
 import { SiteProvider, useSite } from './lib/site'
 import { Gallery } from './pages/Gallery'
@@ -74,6 +75,7 @@ export default function App() {
       <SiteProvider>
         <ScrollToTop />
         <Shell />
+        <StarNudge />
       </SiteProvider>
       <Analytics />
     </BrowserRouter>

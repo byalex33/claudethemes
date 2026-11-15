@@ -1151,3 +1151,60 @@ legend {
     grid-template-columns: 1fr;
   }
 }
+
+/* The star note in the corner */
+.nudge {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 20;
+  width: min(320px, calc(100vw - 32px));
+  display: grid;
+  gap: 8px;
+  justify-items: start;
+  padding: 18px 20px 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--popover);
+  color: var(--foreground);
+  box-shadow: var(--shadow-lift);
+  animation: nudge-in 0.35s cubic-bezier(0.2, 0.9, 0.3, 1.2);
+}
+
+.nudge-title {
+  font-weight: 650;
+  font-size: 1.05rem;
+  padding-right: 28px;
+}
+
+.nudge-text {
+  color: var(--muted-foreground);
+  font-size: 0.92rem;
+  margin-bottom: 4px;
+}
+
+.nudge-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@keyframes nudge-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.96);
+  }
+}
+
+@media (max-width: 520px) {
+  .nudge {
+    right: 16px;
+    bottom: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nudge {
+    animation: none;
+  }
+}
