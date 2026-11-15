@@ -34,6 +34,7 @@ export function Upload() {
   const [name, setName] = useState('')
   const [author, setAuthor] = useState('')
   const [over, setOver] = useState(false)
+  const [typed, setTyped] = useState('')
   const [sent, setSent] = useState<Sent>({ state: 'idle' })
   // Whether the site can queue an upload itself. If not, GitHub takes it.
   const [direct, setDirect] = useState(false)
@@ -161,8 +162,17 @@ export function Upload() {
                 e.preventDefault()
                 take(e.clipboardData.getData('text'))
               }}
-              onChange={e => take(e.target.value)}
-              value=""
+              onChange={e => {
+                // Wait for a whole theme before judging it, so typing isn't met with an error.
+                const value = e.target.value
+                if (parsePasted(value)) {
+                  setTyped('')
+                  take(value)
+                } else {
+                  setTyped(value)
+                }
+              }}
+              value={typed}
             />
           </div>
           {problem && (
