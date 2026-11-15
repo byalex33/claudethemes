@@ -1,0 +1,9 @@
+{
+  "name": "Audit Test",
+  "author": "@octocat tester",
+  "description": "Endpoint test. Safe to close.",
+  "dark": {
+    "surface-0": "#101418",
+    "text-primary": "#e8eef4"
+  }
+}
