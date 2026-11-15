@@ -25,13 +25,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <script>
-      // Set the mode before first paint, so a dark-mode visitor never sees a white flash.
-      try {
-        var m = localStorage.getItem('mode')
-        if (m === 'dark' || (m !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches)) document.documentElement.classList.add('dark')
-      } catch (e) {}
-    </script>
+    <script src="/mode.js"></script>
   </head>
   <body>
     <div id="root"></div>
