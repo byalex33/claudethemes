@@ -1,0 +1,24 @@
+{
+  "name": "Sandstone",
+  "author": "claudethemes",
+  "description": "Desert rock and a clay accent. Light only.",
+  "tags": [
+    "light",
+    "warm"
+  ],
+  "roles": {
+    "accent": "#b5532a",
+    "danger": "#b83232",
+    "success": "#55803a",
+    "warning": "#a87412",
+    "pro": "#8a4f8f"
+  },
+  "light": {
+    "surface-0": "#f0e4d6",
+    "surface-1": "#f5ebdf",
+    "surface-2": "#fbf5ec",
+    "text-primary": "#2e221a",
+    "text-secondary": "#58483c",
+    "text-muted": "#6e5d50"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Moss",
+  "author": "claudethemes",
+  "description": "Forest floor greens, soft on the eyes.",
+  "tags": [
+    "green",
+    "nature"
+  ],
+  "roles": {
+    "accent": "#4a7a3a",
+    "danger": "#b8443a",
+    "success": "#3f8050",
+    "warning": "#a8801c",
+    "pro": "#7a5a9a"
+  },
+  "light": {
+    "surface-0": "#e6ebdd",
+    "surface-1": "#edf1e5",
+    "surface-2": "#f5f8ef",
+    "text-primary": "#1f2a1a",
+    "text-secondary": "#42503a",
+    "text-muted": "#59684f"
+  },
+  "dark": {
+    "surface-0": "#141a12",
+    "surface-1": "#1b2318",
+    "surface-2": "#222b1e",
+    "surface-3": "#283224",
+    "text-primary": "#e4ecdb",
+    "text-secondary": "#c0ccb4",
+    "text-muted": "#9aa88d"
+  }
+}

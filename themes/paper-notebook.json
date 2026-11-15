@@ -1,0 +1,33 @@
+{
+  "name": "Paper Notebook",
+  "author": "claudethemes",
+  "description": "Warm paper by day, lamp-lit paper by night.",
+  "tags": [
+    "warm",
+    "paper"
+  ],
+  "roles": {
+    "accent": "#2f5d8c",
+    "danger": "#b3392f",
+    "success": "#4e7d3a",
+    "warning": "#a86f14",
+    "pro": "#6d4f94"
+  },
+  "light": {
+    "surface-0": "#efe6d3",
+    "surface-1": "#f4ecdc",
+    "surface-2": "#faf5e9",
+    "text-primary": "#2a241d",
+    "text-secondary": "#544a3d",
+    "text-muted": "#6a5f50"
+  },
+  "dark": {
+    "surface-0": "#1f1a15",
+    "surface-1": "#28221b",
+    "surface-2": "#312a22",
+    "surface-3": "#3a3229",
+    "text-primary": "#f0e7d7",
+    "text-secondary": "#cfc4b2",
+    "text-muted": "#aca08d"
+  }
+}
