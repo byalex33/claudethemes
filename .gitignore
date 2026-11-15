@@ -27,3 +27,6 @@ dist-ssr
 .claude
 .wrangler
 .vercel
+
+.vercel
+.env*
