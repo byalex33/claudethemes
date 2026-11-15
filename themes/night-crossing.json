@@ -1,0 +1,25 @@
+{
+  "name": "Night Crossing",
+  "author": "leifshen",
+  "description": "By leifshen on GitHub (MIT). Original: github.com/leifshen/claude-desktop-backdrops",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#d8b24a",
+    "danger": "#e5484d",
+    "success": "#7fbf6a",
+    "warning": "#e08a2e",
+    "pro": "#a58bd6"
+  },
+  "dark": {
+    "surface-0": "#0b100d",
+    "surface-1": "#111813",
+    "surface-2": "#162019",
+    "surface-3": "#1a251d",
+    "text-primary": "#e8ede4",
+    "text-secondary": "#c1cbbd",
+    "text-muted": "#97a493"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Aurora Noir",
+  "author": "AG69075",
+  "description": "By AG69075 on GitHub (MIT). Original: github.com/AG69075/claude-theme",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#3affc0",
+    "danger": "#ff6b81",
+    "success": "#5dffb5",
+    "warning": "#ffc46b",
+    "pro": "#9f7bff"
+  },
+  "dark": {
+    "surface-0": "#0a1020",
+    "surface-1": "#0f172b",
+    "surface-2": "#141e36",
+    "surface-3": "#162039",
+    "text-primary": "#ffffff",
+    "text-secondary": "#9fadc6",
+    "text-muted": "#8996b0"
+  }
+}

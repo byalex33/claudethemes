@@ -1,0 +1,34 @@
+{
+  "name": "Solarpunk",
+  "author": "enuzzo",
+  "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#4f9a1c",
+    "danger": "#cc4433",
+    "success": "#239a62",
+    "warning": "#e8a314",
+    "pro": "#1d93b3"
+  },
+  "light": {
+    "surface-0": "#e6eddb",
+    "surface-1": "#eef3e5",
+    "surface-2": "#f6f9f0",
+    "text-primary": "#132b1a",
+    "text-secondary": "#2c4733",
+    "text-muted": "#465f4b"
+  },
+  "dark": {
+    "surface-0": "#131c14",
+    "surface-1": "#182319",
+    "surface-2": "#1c291d",
+    "surface-3": "#1f2d20",
+    "text-primary": "#eef5e2",
+    "text-secondary": "#cbdbbf",
+    "text-muted": "#a2b897"
+  }
+}

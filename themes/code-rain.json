@@ -1,0 +1,25 @@
+{
+  "name": "Code rain",
+  "author": "sobrien032",
+  "description": "By sobrien032 on GitHub (MIT). Original: github.com/sobrien032/code-and-cosmos",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#30e67a",
+    "danger": "#ff5f56",
+    "success": "#9be22d",
+    "warning": "#f2c94c",
+    "pro": "#4fd6ff"
+  },
+  "dark": {
+    "surface-0": "#040a06",
+    "surface-1": "#08120b",
+    "surface-2": "#0c1910",
+    "surface-3": "#101f14",
+    "text-primary": "#ddf9e3",
+    "text-secondary": "#a9deb4",
+    "text-muted": "#80ba8d"
+  }
+}

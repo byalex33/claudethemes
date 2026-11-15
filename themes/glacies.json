@@ -1,0 +1,34 @@
+{
+  "name": "Glacies",
+  "author": "btahir",
+  "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#71add0",
+    "danger": "#c87976",
+    "success": "#78baac",
+    "warning": "#d4ad71",
+    "pro": "#a08dc3"
+  },
+  "light": {
+    "surface-0": "#e5ecf3",
+    "surface-1": "#ebf1f7",
+    "surface-2": "#f1f6fa",
+    "text-primary": "#36414d",
+    "text-secondary": "#4b5763",
+    "text-muted": "#5c6774"
+  },
+  "dark": {
+    "surface-0": "#242c35",
+    "surface-1": "#29313a",
+    "surface-2": "#2e363f",
+    "surface-3": "#343b44",
+    "text-primary": "#ccd6de",
+    "text-secondary": "#aeb9c2",
+    "text-muted": "#a0abb5"
+  }
+}

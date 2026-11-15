@@ -1,0 +1,25 @@
+{
+  "name": "Neon punk",
+  "author": "enuzzo",
+  "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#c8ff2e",
+    "danger": "#ff4a5a",
+    "success": "#4dffa0",
+    "warning": "#ffb02e",
+    "pro": "#ff3dd8"
+  },
+  "dark": {
+    "surface-0": "#16121a",
+    "surface-1": "#1c1721",
+    "surface-2": "#221c28",
+    "surface-3": "#26202d",
+    "text-primary": "#f6f0f2",
+    "text-secondary": "#d8cfd6",
+    "text-muted": "#b3a8b3"
+  }
+}

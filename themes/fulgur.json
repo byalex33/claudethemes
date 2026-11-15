@@ -1,0 +1,34 @@
+{
+  "name": "Fulgur",
+  "author": "btahir",
+  "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#22e3f2",
+    "danger": "#ff2f7e",
+    "success": "#3dfa78",
+    "warning": "#f2e33a",
+    "pro": "#a464ff"
+  },
+  "light": {
+    "surface-0": "#f4f5fa",
+    "surface-1": "#f8f9fc",
+    "surface-2": "#fbfbfd",
+    "text-primary": "#14122a",
+    "text-secondary": "#2e2b48",
+    "text-muted": "#46435f"
+  },
+  "dark": {
+    "surface-0": "#0e0c1a",
+    "surface-1": "#131124",
+    "surface-2": "#18152b",
+    "surface-3": "#1d1a33",
+    "text-primary": "#f2effe",
+    "text-secondary": "#c9c5e6",
+    "text-muted": "#a7a3c8"
+  }
+}

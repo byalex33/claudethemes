@@ -1,0 +1,25 @@
+{
+  "name": "Mademoiselle Claude",
+  "author": "Cozyuwu",
+  "description": "By Cozyuwu on GitHub (MIT). Original: github.com/Cozyuwu/mademoiselle-claude",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#8fa8dc",
+    "danger": "#c8616e",
+    "success": "#6fa58a",
+    "warning": "#c9a45a",
+    "pro": "#a590d6"
+  },
+  "dark": {
+    "surface-0": "#0b0e17",
+    "surface-1": "#10141f",
+    "surface-2": "#151a27",
+    "surface-3": "#191f2e",
+    "text-primary": "#e3e9f5",
+    "text-secondary": "#bcc6da",
+    "text-muted": "#97a4be"
+  }
+}

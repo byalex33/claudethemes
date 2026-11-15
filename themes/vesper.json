@@ -1,0 +1,34 @@
+{
+  "name": "Vesper",
+  "author": "btahir",
+  "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#c66ca1",
+    "danger": "#c86459",
+    "success": "#52a27a",
+    "warning": "#d09945",
+    "pro": "#8b80ca"
+  },
+  "light": {
+    "surface-0": "#f5e4eb",
+    "surface-1": "#f8eaf0",
+    "surface-2": "#fbf2f6",
+    "text-primary": "#3c2632",
+    "text-secondary": "#533947",
+    "text-muted": "#6a4f5d"
+  },
+  "dark": {
+    "surface-0": "#2a1c28",
+    "surface-1": "#2f212e",
+    "surface-2": "#352533",
+    "surface-3": "#3b2a39",
+    "text-primary": "#eee0ec",
+    "text-secondary": "#d6c4d3",
+    "text-muted": "#beaabc"
+  }
+}

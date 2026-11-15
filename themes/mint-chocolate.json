@@ -1,0 +1,25 @@
+{
+  "name": "Mint Chocolate",
+  "author": "briannaworkman",
+  "description": "By briannaworkman on GitHub (MIT). Original: github.com/briannaworkman/looks",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#7ee0c0",
+    "danger": "#ff7a6b",
+    "success": "#9be07a",
+    "warning": "#f3c46b",
+    "pro": "#e69ac1"
+  },
+  "dark": {
+    "surface-0": "#1b1410",
+    "surface-1": "#1f1813",
+    "surface-2": "#231b16",
+    "surface-3": "#271e19",
+    "text-primary": "#f1e3d8",
+    "text-secondary": "#d3c0b2",
+    "text-muted": "#ac9788"
+  }
+}

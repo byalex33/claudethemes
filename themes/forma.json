@@ -1,0 +1,34 @@
+{
+  "name": "Forma",
+  "author": "btahir",
+  "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#2f5fd0",
+    "danger": "#d63a2b",
+    "success": "#3a9a4e",
+    "warning": "#e5ad12",
+    "pro": "#8b52c8"
+  },
+  "light": {
+    "surface-0": "#f2eee4",
+    "surface-1": "#f6f3ec",
+    "surface-2": "#faf8f3",
+    "text-primary": "#2a2823",
+    "text-secondary": "#3f3c34",
+    "text-muted": "#514e45"
+  },
+  "dark": {
+    "surface-0": "#252420",
+    "surface-1": "#2a2925",
+    "surface-2": "#2f2e29",
+    "surface-3": "#35342e",
+    "text-primary": "#e5e1d6",
+    "text-secondary": "#cbc6b9",
+    "text-muted": "#b6b1a4"
+  }
+}

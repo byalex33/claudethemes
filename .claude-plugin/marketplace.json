@@ -6,9 +6,199 @@
   },
   "plugins": [
     {
+      "name": "abyssal",
+      "source": "./plugins/abyssal",
+      "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks"
+    },
+    {
+      "name": "abyssus",
+      "source": "./plugins/abyssus",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "amber-crt",
+      "source": "./plugins/amber-crt",
+      "description": "By briannaworkman on GitHub (MIT). Original: github.com/briannaworkman/looks"
+    },
+    {
+      "name": "ascii-tide",
+      "source": "./plugins/ascii-tide",
+      "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks"
+    },
+    {
+      "name": "ashen-ruins",
+      "source": "./plugins/ashen-ruins",
+      "description": "By lincleejun on GitHub (MIT). Original: github.com/lincleejun/ashen-ruins"
+    },
+    {
+      "name": "astroduck",
+      "source": "./plugins/astroduck",
+      "description": "By AyushChaurasia18 on GitHub (MIT). Original: github.com/AyushChaurasia18/astroduck"
+    },
+    {
+      "name": "atomic-age",
+      "source": "./plugins/atomic-age",
+      "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks"
+    },
+    {
+      "name": "atramentum",
+      "source": "./plugins/atramentum",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "atrium-noon",
+      "source": "./plugins/atrium-noon",
+      "description": "By leifshen on GitHub (MIT). Original: github.com/leifshen/claude-desktop-backdrops"
+    },
+    {
+      "name": "aurora-night",
+      "source": "./plugins/aurora-night",
+      "description": "By yaohuangguan on GitHub (MIT). Original: github.com/yaohuangguan/claude-code-mods"
+    },
+    {
+      "name": "aurora-noir",
+      "source": "./plugins/aurora-noir",
+      "description": "By AG69075 on GitHub (MIT). Original: github.com/AG69075/claude-theme"
+    },
+    {
+      "name": "aurora",
+      "source": "./plugins/aurora",
+      "description": "By BenItBuhner on GitHub (MIT). Original: github.com/BenItBuhner/claude-aurora"
+    },
+    {
+      "name": "aurum",
+      "source": "./plugins/aurum",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "blue-whale",
+      "source": "./plugins/blue-whale",
+      "description": "By we1jia on GitHub (MIT). Original: github.com/we1jia/blue-whale-theme"
+    },
+    {
+      "name": "brie-mine",
+      "source": "./plugins/brie-mine",
+      "description": "By JStanoeva on GitHub (MIT). Original: github.com/JStanoeva/brie-mine"
+    },
+    {
+      "name": "bubblegum-fizz",
+      "source": "./plugins/bubblegum-fizz",
+      "description": "By HemalathaMadeswaran18 on GitHub (MIT). Original: github.com/HemalathaMadeswaran18/bubblegum-fizz"
+    },
+    {
+      "name": "caementum",
+      "source": "./plugins/caementum",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "ce-u-de-dia",
+      "source": "./plugins/ce-u-de-dia",
+      "description": "By ichikawacraice on GitHub (MIT). Original: github.com/ichikawacraice/ichikawa-plugins"
+    },
+    {
+      "name": "ce-u-estrelado",
+      "source": "./plugins/ce-u-estrelado",
+      "description": "By ichikawacraice on GitHub (MIT). Original: github.com/ichikawacraice/ichikawa-plugins"
+    },
+    {
+      "name": "cielo-estrellado",
+      "source": "./plugins/cielo-estrellado",
+      "description": "By joselito404 on GitHub (MIT). Original: github.com/joselito404/cielo-estrellado"
+    },
+    {
+      "name": "cinis",
+      "source": "./plugins/cinis",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "clarity",
+      "source": "./plugins/clarity",
+      "description": "By swperb on GitHub (MIT). Original: github.com/swperb/clarity"
+    },
+    {
+      "name": "code-rain",
+      "source": "./plugins/code-rain",
+      "description": "By sobrien032 on GitHub (MIT). Original: github.com/sobrien032/code-and-cosmos"
+    },
+    {
+      "name": "cosmic-horizon",
+      "source": "./plugins/cosmic-horizon",
+      "description": "By gg18966141298-crypt on GitHub (MIT). Original: github.com/gg18966141298-crypt/cosmic-horizon"
+    },
+    {
+      "name": "cupertino-dusk",
+      "source": "./plugins/cupertino-dusk",
+      "description": "By rhealaloo45 on GitHub (MIT). Original: github.com/rhealaloo45/pit-lane-claude-mods"
+    },
+    {
+      "name": "cyberpunk",
+      "source": "./plugins/cyberpunk",
+      "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks"
+    },
+    {
+      "name": "deep-field",
+      "source": "./plugins/deep-field",
+      "description": "By amandamartin-dev on GitHub (MIT). Original: github.com/amandamartin-dev/claude-mods"
+    },
+    {
+      "name": "deep-sea",
+      "source": "./plugins/deep-sea",
+      "description": "By breyr on GitHub (MIT). Original: github.com/breyr/claude-deep-sea-theme"
+    },
+    {
+      "name": "deep-space",
+      "source": "./plugins/deep-space",
+      "description": "By sobrien032 on GitHub (MIT). Original: github.com/sobrien032/code-and-cosmos"
+    },
+    {
+      "name": "digital-rain",
+      "source": "./plugins/digital-rain",
+      "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks"
+    },
+    {
+      "name": "dot-matrix",
+      "source": "./plugins/dot-matrix",
+      "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks"
+    },
+    {
+      "name": "dulcis",
+      "source": "./plugins/dulcis",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
       "name": "ember",
       "source": "./plugins/ember",
       "description": "Charcoal with sparks rising off the coals. Dark only."
+    },
+    {
+      "name": "firefly-meadow",
+      "source": "./plugins/firefly-meadow",
+      "description": "By amandamartin-dev on GitHub (MIT). Original: github.com/amandamartin-dev/claude-mods"
+    },
+    {
+      "name": "flos",
+      "source": "./plugins/flos",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "forest-mist",
+      "source": "./plugins/forest-mist",
+      "description": "By SimuraEpona on GitHub (MIT). Original: github.com/SimuraEpona/forest-mist"
+    },
+    {
+      "name": "forma",
+      "source": "./plugins/forma",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "fulgur",
+      "source": "./plugins/fulgur",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "glacies",
+      "source": "./plugins/glacies",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
     },
     {
       "name": "graphite",
@@ -16,9 +206,74 @@
       "description": "Neutral pencil grays with one blue line."
     },
     {
+      "name": "grimoire",
+      "source": "./plugins/grimoire",
+      "description": "By Anurag123rk on GitHub (MIT). Original: github.com/Anurag123rk/claude-grimoire-theme"
+    },
+    {
+      "name": "holo-damascus",
+      "source": "./plugins/holo-damascus",
+      "description": "By bassonrichard on GitHub (MIT). Original: github.com/bassonrichard/holo-damascus"
+    },
+    {
+      "name": "home-computer",
+      "source": "./plugins/home-computer",
+      "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks"
+    },
+    {
+      "name": "hortus",
+      "source": "./plugins/hortus",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "ignis",
+      "source": "./plugins/ignis",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "indicum",
+      "source": "./plugins/indicum",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "interlinked",
+      "source": "./plugins/interlinked",
+      "description": "By xiangerwu on GitHub (MIT). Original: github.com/xiangerwu/claude-theme-icanfixthat"
+    },
+    {
+      "name": "kawaii",
+      "source": "./plugins/kawaii",
+      "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks"
+    },
+    {
+      "name": "koi-script",
+      "source": "./plugins/koi-script",
+      "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks"
+    },
+    {
       "name": "lilac-dusk",
       "source": "./plugins/lilac-dusk",
       "description": "Violet evening sky, lavender morning."
+    },
+    {
+      "name": "machina",
+      "source": "./plugins/machina",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "mademoiselle-claude",
+      "source": "./plugins/mademoiselle-claude",
+      "description": "By Cozyuwu on GitHub (MIT). Original: github.com/Cozyuwu/mademoiselle-claude"
+    },
+    {
+      "name": "maldives-lagoon",
+      "source": "./plugins/maldives-lagoon",
+      "description": "By davidYichengWei on GitHub (MIT). Original: github.com/davidYichengWei/claude-maldives-theme"
+    },
+    {
+      "name": "malva",
+      "source": "./plugins/malva",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
     },
     {
       "name": "midnight-ink",
@@ -26,9 +281,79 @@
       "description": "Blue-black ink under a slow field of stars. Dark only."
     },
     {
+      "name": "midnight-static",
+      "source": "./plugins/midnight-static",
+      "description": "By 999mmartinn on GitHub (MIT). Original: github.com/999mmartinn/persona-claude-themes"
+    },
+    {
+      "name": "mint-chocolate",
+      "source": "./plugins/mint-chocolate",
+      "description": "By briannaworkman on GitHub (MIT). Original: github.com/briannaworkman/looks"
+    },
+    {
+      "name": "moon-window",
+      "source": "./plugins/moon-window",
+      "description": "By leifshen on GitHub (MIT). Original: github.com/leifshen/claude-desktop-backdrops"
+    },
+    {
+      "name": "mosaic-sky",
+      "source": "./plugins/mosaic-sky",
+      "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks"
+    },
+    {
       "name": "moss",
       "source": "./plugins/moss",
       "description": "Forest floor greens, soft on the eyes."
+    },
+    {
+      "name": "neon-coast",
+      "source": "./plugins/neon-coast",
+      "description": "By IsTincho on GitHub (MIT). Original: github.com/IsTincho/neon-coast"
+    },
+    {
+      "name": "neon-punk",
+      "source": "./plugins/neon-punk",
+      "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks"
+    },
+    {
+      "name": "neon-rain",
+      "source": "./plugins/neon-rain",
+      "description": "By Tamara1001 on GitHub (MIT). Original: github.com/Tamara1001/claude-neon-rain"
+    },
+    {
+      "name": "night-crossing",
+      "source": "./plugins/night-crossing",
+      "description": "By leifshen on GitHub (MIT). Original: github.com/leifshen/claude-desktop-backdrops"
+    },
+    {
+      "name": "night-room",
+      "source": "./plugins/night-room",
+      "description": "By T3NSA1 on GitHub (MIT). Original: github.com/T3NSA1/claude-themes"
+    },
+    {
+      "name": "nox",
+      "source": "./plugins/nox",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "ocsky-galaxy",
+      "source": "./plugins/ocsky-galaxy",
+      "description": "By iDiagoValeta on GitHub (Apache-2.0). Original: github.com/iDiagoValeta/ocsky-galaxy"
+    },
+    {
+      "name": "orange-kois",
+      "source": "./plugins/orange-kois",
+      "description": "By nabielyr on GitHub (MIT). Original: github.com/nabielyr/orange-kois"
+    },
+    {
+      "name": "pamukkale",
+      "source": "./plugins/pamukkale",
+      "description": "By afsozer on GitHub (MIT). Original: github.com/afsozer/pamukkale-tema"
+    },
+    {
+      "name": "paper-lake",
+      "source": "./plugins/paper-lake",
+      "description": "By Seravielle-de-Lochan on GitHub (Apache-2.0). Original: github.com/Seravielle-de-Lochan/paper-lake"
     },
     {
       "name": "paper-notebook",
@@ -36,14 +361,144 @@
       "description": "Warm paper by day, lamp-lit paper by night."
     },
     {
+      "name": "penumbra-light",
+      "source": "./plugins/penumbra-light",
+      "description": "By choyongjoon on GitHub (MIT). Original: github.com/choyongjoon/claude-penumbra-light"
+    },
+    {
+      "name": "phantom-red",
+      "source": "./plugins/phantom-red",
+      "description": "By 999mmartinn on GitHub (MIT). Original: github.com/999mmartinn/persona-claude-themes"
+    },
+    {
+      "name": "phosphor",
+      "source": "./plugins/phosphor",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "pixel-office",
+      "source": "./plugins/pixel-office",
+      "description": "By gg18966141298-crypt on GitHub (MIT). Original: github.com/gg18966141298-crypt/pixel-office"
+    },
+    {
+      "name": "pluvia",
+      "source": "./plugins/pluvia",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "purpura",
+      "source": "./plugins/purpura",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "rainy-window",
+      "source": "./plugins/rainy-window",
+      "description": "By ishuagrawal on GitHub (MIT). Original: github.com/ishuagrawal/claude-code-themes"
+    },
+    {
+      "name": "sakura",
+      "source": "./plugins/sakura",
+      "description": "By briannaworkman on GitHub (MIT). Original: github.com/briannaworkman/looks"
+    },
+    {
       "name": "sandstone",
       "source": "./plugins/sandstone",
       "description": "Desert rock and a clay accent. Light only."
     },
     {
+      "name": "savannah-night",
+      "source": "./plugins/savannah-night",
+      "description": "By WilsonKinyua on GitHub (MIT). Original: github.com/WilsonKinyua/claude-mods"
+    },
+    {
+      "name": "scriptorium",
+      "source": "./plugins/scriptorium",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "silva",
+      "source": "./plugins/silva",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "ski-night",
+      "source": "./plugins/ski-night",
+      "description": "By mhwtx on GitHub (MIT). Original: github.com/mhwtx/claude-themes"
+    },
+    {
+      "name": "sol",
+      "source": "./plugins/sol",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "solarpunk",
+      "source": "./plugins/solarpunk",
+      "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks"
+    },
+    {
+      "name": "stardust-tank",
+      "source": "./plugins/stardust-tank",
+      "description": "By kurpsaki on GitHub (MIT). Original: github.com/kurpsaki/stardust-tank"
+    },
+    {
+      "name": "steampunk",
+      "source": "./plugins/steampunk",
+      "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks"
+    },
+    {
+      "name": "sumi-sakura",
+      "source": "./plugins/sumi-sakura",
+      "description": "By Dolcruz on GitHub (MIT). Original: github.com/Dolcruz/claude-themes"
+    },
+    {
+      "name": "sunny-day",
+      "source": "./plugins/sunny-day",
+      "description": "By richyuen on GitHub (MIT). Original: github.com/richyuen/sunny-day-mascot"
+    },
+    {
+      "name": "synthwave-sunset",
+      "source": "./plugins/synthwave-sunset",
+      "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks"
+    },
+    {
+      "name": "terra",
+      "source": "./plugins/terra",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
       "name": "tidepool",
       "source": "./plugins/tidepool",
       "description": "Cool sea glass, with a deep-water night."
+    },
+    {
+      "name": "velvet",
+      "source": "./plugins/velvet",
+      "description": "By reversedPF on GitHub (MIT). Original: github.com/reversedPF/velvet-claude-theme"
+    },
+    {
+      "name": "vesper",
+      "source": "./plugins/vesper",
+      "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera"
+    },
+    {
+      "name": "voxel-drift",
+      "source": "./plugins/voxel-drift",
+      "description": "By stillgbx on GitHub (MIT). Original: github.com/stillgbx/voxel-drift-claude"
+    },
+    {
+      "name": "witte-bengaal",
+      "source": "./plugins/witte-bengaal",
+      "description": "By Schouwenaar on GitHub (MIT). Original: github.com/Schouwenaar/white-bengal"
+    },
+    {
+      "name": "zen-garden",
+      "source": "./plugins/zen-garden",
+      "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks"
+    },
+    {
+      "name": "zifiri",
+      "source": "./plugins/zifiri",
+      "description": "By afsozer on GitHub (MIT). Original: github.com/afsozer/zifiri-tema"
     }
   ]
 }

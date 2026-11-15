@@ -1,0 +1,35 @@
+{
+  "name": "Pixel Office",
+  "author": "gg18966141298-crypt",
+  "description": "By gg18966141298-crypt on GitHub (MIT). Original: github.com/gg18966141298-crypt/pixel-office",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#d9663a",
+    "danger": "#c0392b",
+    "success": "#4f8f3a",
+    "warning": "#b7791f",
+    "pro": "#7a5aa6"
+  },
+  "light": {
+    "surface-0": "#ece5e4",
+    "surface-1": "#f4efee",
+    "surface-2": "#faf7f6",
+    "surface-3": "#faf7f6",
+    "text-primary": "#2b2523",
+    "text-secondary": "#564b47",
+    "text-muted": "#6d615c"
+  },
+  "dark": {
+    "surface-0": "#24263a",
+    "surface-1": "#282b40",
+    "surface-2": "#2c2f45",
+    "surface-3": "#30334a",
+    "text-primary": "#efecf4",
+    "text-secondary": "#cbc7d8",
+    "text-muted": "#a8a4ba"
+  }
+}

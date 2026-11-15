@@ -1,0 +1,34 @@
+{
+  "name": "Pluvia",
+  "author": "btahir",
+  "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#4a8fc7",
+    "danger": "#c9605a",
+    "success": "#4d9a78",
+    "warning": "#b98a3a",
+    "pro": "#8b78c2"
+  },
+  "light": {
+    "surface-0": "#e4e9ed",
+    "surface-1": "#ebeff2",
+    "surface-2": "#f3f5f7",
+    "text-primary": "#222d39",
+    "text-secondary": "#404e5d",
+    "text-muted": "#556373"
+  },
+  "dark": {
+    "surface-0": "#18212b",
+    "surface-1": "#1c2631",
+    "surface-2": "#202b37",
+    "surface-3": "#24303d",
+    "text-primary": "#dde5ee",
+    "text-secondary": "#bac6d3",
+    "text-muted": "#9dabbb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Deep space",
+  "author": "sobrien032",
+  "description": "By sobrien032 on GitHub (MIT). Original: github.com/sobrien032/code-and-cosmos",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#7fb0ff",
+    "danger": "#ff6a7c",
+    "success": "#58e0a4",
+    "warning": "#ffc257",
+    "pro": "#c59bff"
+  },
+  "dark": {
+    "surface-0": "#06070e",
+    "surface-1": "#0b0e1b",
+    "surface-2": "#101425",
+    "surface-3": "#14192d",
+    "text-primary": "#eceff8",
+    "text-secondary": "#c0c7da",
+    "text-muted": "#949db6"
+  }
+}

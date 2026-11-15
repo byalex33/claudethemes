@@ -1,0 +1,34 @@
+{
+  "name": "Terra",
+  "author": "btahir",
+  "description": "By btahir on GitHub (MIT). Original: github.com/btahir/tessera",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#4f8e98",
+    "danger": "#c3573f",
+    "success": "#7d9341",
+    "warning": "#c99a30",
+    "pro": "#a1638b"
+  },
+  "light": {
+    "surface-0": "#f3e8d1",
+    "surface-1": "#f6eddb",
+    "surface-2": "#f9f3e5",
+    "text-primary": "#2f2619",
+    "text-secondary": "#4f4433",
+    "text-muted": "#5a4d3d"
+  },
+  "dark": {
+    "surface-0": "#2b2620",
+    "surface-1": "#302a23",
+    "surface-2": "#352e27",
+    "surface-3": "#3a332b",
+    "text-primary": "#ecdfc6",
+    "text-secondary": "#d3c5ac",
+    "text-muted": "#bcae96"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Night room",
+  "author": "T3NSA1",
+  "description": "By T3NSA1 on GitHub (MIT). Original: github.com/T3NSA1/claude-themes",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#d97757",
+    "danger": "#e0565b",
+    "success": "#6fbf73",
+    "warning": "#e0af68",
+    "pro": "#9d8cd8"
+  },
+  "dark": {
+    "surface-0": "#0f1322",
+    "surface-1": "#151a2b",
+    "surface-2": "#1a2033",
+    "surface-3": "#20273b",
+    "text-primary": "#ece6dc",
+    "text-secondary": "#c6c1b8",
+    "text-muted": "#a09fab"
+  }
+}

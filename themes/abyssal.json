@@ -1,0 +1,25 @@
+{
+  "name": "Abyssal",
+  "author": "enuzzo",
+  "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#2fd8c6",
+    "danger": "#ff5c7c",
+    "success": "#5fe08e",
+    "warning": "#ffbf57",
+    "pro": "#9d80ff"
+  },
+  "dark": {
+    "surface-0": "#070a1a",
+    "surface-1": "#0e132b",
+    "surface-2": "#10162f",
+    "surface-3": "#121832",
+    "text-primary": "#e9ecff",
+    "text-secondary": "#c3c8e9",
+    "text-muted": "#99a0c9"
+  }
+}

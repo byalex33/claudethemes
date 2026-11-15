@@ -1,0 +1,34 @@
+{
+  "name": "Rainy window",
+  "author": "ishuagrawal",
+  "description": "By ishuagrawal on GitHub (MIT). Original: github.com/ishuagrawal/claude-code-themes",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#5562c9",
+    "danger": "#c9553e",
+    "success": "#4e8b62",
+    "warning": "#d9892f",
+    "pro": "#7e5fc0"
+  },
+  "light": {
+    "surface-0": "#e9e3d6",
+    "surface-1": "#f0ebe1",
+    "surface-2": "#f6f2ea",
+    "text-primary": "#1f1f26",
+    "text-secondary": "#45444f",
+    "text-muted": "#5f5d68"
+  },
+  "dark": {
+    "surface-0": "#12142a",
+    "surface-1": "#181b33",
+    "surface-2": "#1d2140",
+    "surface-3": "#22264a",
+    "text-primary": "#ede6d6",
+    "text-secondary": "#cbc3b3",
+    "text-muted": "#a8a192"
+  }
+}

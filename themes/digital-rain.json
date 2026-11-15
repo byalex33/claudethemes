@@ -1,0 +1,25 @@
+{
+  "name": "Digital rain",
+  "author": "enuzzo",
+  "description": "By enuzzo on GitHub (MIT). Original: github.com/enuzzo/claude-looks",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#3dff7a",
+    "danger": "#e0605a",
+    "success": "#7dffa8",
+    "warning": "#e8b440",
+    "pro": "#7fd6c2"
+  },
+  "dark": {
+    "surface-0": "#050c07",
+    "surface-1": "#09140c",
+    "surface-2": "#0d1a10",
+    "surface-3": "#102014",
+    "text-primary": "#e4ffe9",
+    "text-secondary": "#b5e8c0",
+    "text-muted": "#86c494"
+  }
+}

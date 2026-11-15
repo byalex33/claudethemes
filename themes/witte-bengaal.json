@@ -1,0 +1,34 @@
+{
+  "name": "Witte bengaal",
+  "author": "Schouwenaar",
+  "description": "By Schouwenaar on GitHub (MIT). Original: github.com/Schouwenaar/white-bengal",
+  "tags": [
+    "community",
+    "light",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#5aa9d6",
+    "danger": "#d9627e",
+    "success": "#5fa88c",
+    "warning": "#d19a4a",
+    "pro": "#a184d6"
+  },
+  "light": {
+    "surface-0": "#ece8f4",
+    "surface-1": "#f3f0f9",
+    "surface-2": "#faf8fd",
+    "text-primary": "#2b2740",
+    "text-secondary": "#4d4868",
+    "text-muted": "#655f80"
+  },
+  "dark": {
+    "surface-0": "#1c1a28",
+    "surface-1": "#232031",
+    "surface-2": "#2a273a",
+    "surface-3": "#2c293d",
+    "text-primary": "#f1eef9",
+    "text-secondary": "#cfc9e0",
+    "text-muted": "#a9a2c0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Aurora Night",
+  "author": "yaohuangguan",
+  "description": "By yaohuangguan on GitHub (MIT). Original: github.com/yaohuangguan/claude-code-mods",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#3ee0b0",
+    "danger": "#ff6b81",
+    "success": "#7be08a",
+    "warning": "#ffc46b",
+    "pro": "#a98bff"
+  },
+  "dark": {
+    "surface-0": "#0b1024",
+    "surface-1": "#11172f",
+    "surface-2": "#161d38",
+    "surface-3": "#1b2240",
+    "text-primary": "#eef1ff",
+    "text-secondary": "#c3c9e8",
+    "text-muted": "#9aa2c8"
+  }
+}

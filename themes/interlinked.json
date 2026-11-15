@@ -1,0 +1,25 @@
+{
+  "name": "Interlinked",
+  "author": "xiangerwu",
+  "description": "By xiangerwu on GitHub (MIT). Original: github.com/xiangerwu/claude-theme-icanfixthat",
+  "tags": [
+    "community",
+    "dark"
+  ],
+  "roles": {
+    "accent": "#2fb4c9",
+    "danger": "#e0483c",
+    "success": "#3fae74",
+    "warning": "#e08a2a",
+    "pro": "#9a6bd6"
+  },
+  "dark": {
+    "surface-0": "#0b0f12",
+    "surface-1": "#0e141a",
+    "surface-2": "#131b22",
+    "surface-3": "#182028",
+    "text-primary": "#e6eef3",
+    "text-secondary": "#a6bcc8",
+    "text-muted": "#90a4b0"
+  }
+}
