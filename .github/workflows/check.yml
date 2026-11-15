@@ -1,15 +1,42 @@
-name: Check themes
+name: Check
 on:
   pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: write
 jobs:
   check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # On a pull request, work on the branch itself so generated mods can be added to it.
+          ref: ${{ github.head_ref || github.ref }}
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run check
+
+      # Check every theme, and regenerate the installable mods from them.
+      - run: npm run registry
+
+      # An upload arrives as a branch in this repository holding only a theme file.
+      # Add its generated mod to the same pull request, so merging it is all it takes.
+      - name: Add generated mods to the pull request
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add plugins .claude-plugin
+          git diff --cached --quiet || (git commit -m "chore(registry): regenerate theme mods" && git push)
+
+      # Anywhere else (a fork, or main itself) the generated mods must already be up to date.
+      - name: Generated mods are up to date
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.repository
+        run: |
+          git add plugins .claude-plugin
+          git diff --cached --exit-code --stat || (echo "::error::Run 'npm run registry' and commit the result." && exit 1)
+
       - run: npm run build

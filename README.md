@@ -123,7 +123,7 @@ flowchart LR
 | `shared/core.js` | Theme checks, share links, prompts and mod generation. Used by the site, the scripts and the upload endpoint. |
 | `template/hooks/make-colors.js` | Claude's theme helper, copied unchanged. Don't edit it; re-copy it when Claude updates. |
 | `scripts/registry.mjs` | Checks every theme and generates `plugins/` and the marketplace file. |
-| `plugins/`, `.claude-plugin/` | Generated. `.github/workflows/registry.yml` regenerates them when a theme changes. |
+| `plugins/`, `.claude-plugin/` | Generated. CI adds them to each theme pull request. |
 | `api/upload.js` | The upload endpoint, a Vercel function. |
 | `src/` | The site: Vite, React, react-icons. |
 
