@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import { useEffect } from 'react'
 import { FiGithub, FiMoon, FiSun } from 'react-icons/fi'
 import { BrowserRouter, Link, NavLink, Route, Routes, useLocation } from 'react-router-dom'
@@ -74,6 +75,7 @@ export default function App() {
         <ScrollToTop />
         <Shell />
       </SiteProvider>
+      <Analytics />
     </BrowserRouter>
   )
 }
